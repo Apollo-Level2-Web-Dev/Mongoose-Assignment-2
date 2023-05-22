@@ -24,7 +24,7 @@
 
 **Task 3:** Implement a MongoDB query to find books in the "Books" collection with a specific genre “Sci-Fi” and published by “Roli Books”.
 
-**Task 4:** Create a static method method within the "Book" model or write a query to retrieve books from the "Books" collection that have a rating equal to or higher than 4. These books will be categorized as featured books. Additionally, introduce a new field named "featured" to the featured book objects. The value of this field should be "Popular" if the book's rating is greater than or equal to 4. For books with a rating exceeding 4.5, the value should be set to "BestSeller".
+**Task 4:** Create a static method method within the "Book" model or write a function using query to retrieve books from the "Books" collection that have a rating equal to or higher than 4. These books will be categorized as featured books. Additionally, introduce a new field named "featured" to the featured book objects. The value of this field should be "Popular" if the book's rating is greater than or equal to 4. For books with a rating exceeding 4.5, the value should be set to "BestSeller".
 
 **Task 5:** In the existing book data, some books have their prices stored as strings instead of integers. To ensure consistent data representation, you are required to update the prices of all books from string format to integer format using a MongoDB update query. However, to limit the scope of the update and ensure data accuracy, the prices should be updated only for books published after 2020.
 
